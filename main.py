@@ -7,7 +7,6 @@ import os
 import uvicorn
 
 app = FastAPI()
-
 # declarations
 db = os.environ.get("MONG_URI")
 
